@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'mariana';
+  title: string;
+  togglePokemon: boolean;
+
+  constructor(){
+    this.title = "Mariana";
+    this.togglePokemon = true;
+  }
 }
